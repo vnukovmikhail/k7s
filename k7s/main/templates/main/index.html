@@ -1,0 +1,12 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Elder Scrolls{% endblock %}
+
+{% block content %}
+    <h3>Our page</h3>
+    <div>
+        <a href="{% url 'about' %}">don't touch me!</a>
+        <a href="admin">try...</a>
+    </div>
+    <button class="btn bg-warning">Warning!</button>
+{% endblock %}
